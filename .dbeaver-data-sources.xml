@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="sqlite_jdbc-16253de9996-16b363853c9cc1b7" provider="generic" driver="sqlite_jdbc" name="SQLite - db.sqlite3" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="D:\Projects\Git\CAH\CAH\db.sqlite3" url="jdbc:sqlite:D:\Projects\Git\CAH\CAH\db.sqlite3" type="dev"/>
+		<virtual-meta-data>
+			<container name="model">
+				<entity name="users">
+					<constraint name="PRIMARY" type="VIRTUAL KEY">
+						<attribute name="userName"/>
+					</constraint>
+				</entity>
+			</container>
+		</virtual-meta-data>
+	</data-source>
+	<filters/>
+</data-sources>
