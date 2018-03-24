@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+{% load staticfiles %}
+<link rel="stylesheet"
+	href="{% static 'loginModule/css/bootstrap.min.css' %}" type="text/css" />
+<title>Welcome To CAH</title>
+</head>
+
+<body>
+	<div>
+		<center>
+			<h1>Cards Against Someone</h1>
+		</center>
+	</div>
+	<div><h1>LOGIN</h1></div>
+	<div class="well bs-sidebar affix" id="sidebar"
+		style="background-color: #f9f">
+		<ul class="nav nav-pills nav-stacked">
+			<li><a href=''>Login</a></li>
+			<li><a href='register'>Register</a></li>
+		</ul>
+	</div>
+	<div>
+		<center>
+			<form action="validateDataForLogin" method="post" id="userNameForm">
+				{% csrf_token %} <input type="text" name="userName"
+					placeholder="Enter you Username"> <input type="text"
+					name="passWord" placeholder="Enter your PassWord">
+				<button type="submit" form="userNameForm" value="submit">Login</button>
+			</form>
+		</center>
+
+	</div>
+</body>
+
+</html>
