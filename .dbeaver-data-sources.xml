@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data-sources>
 	<data-source id="sqlite_jdbc-16253de9996-16b363853c9cc1b7" provider="generic" driver="sqlite_jdbc" name="SQLite - db.sqlite3" save-password="true" show-system-objects="true" read-only="false">
+<<<<<<< HEAD
 		<connection server="" database="D:\Projects\Git\CAH\CAH\db.sqlite3" url="jdbc:sqlite:D:\Projects\Git\CAH\CAH\db.sqlite3" type="dev"/>
+=======
+		<connection server="" database="D:\Projects\Git\CardAgainstHumanatyWebbApp\db.sqlite3" url="jdbc:sqlite:D:\Projects\Git\CardAgainstHumanatyWebbApp\db.sqlite3" type="dev"/>
+>>>>>>> 462cfd66abba7c44eddf47f6f8d1c79d2856daed
 		<virtual-meta-data>
 			<container name="model">
 				<entity name="users">
